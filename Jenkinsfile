@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/java-maven-app.git'
+                git 'https://github.com/nationalwiderenrentals/Pipeline.git'
             }
         }
 
